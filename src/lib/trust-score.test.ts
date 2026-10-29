@@ -135,3 +135,4 @@ describe("Carbon Trust Score Engine", () => {
     expect(getTrustScoreTier(20).tier).toBe("Low");
   });
 });
+

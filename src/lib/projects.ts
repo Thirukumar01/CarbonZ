@@ -250,3 +250,4 @@ export async function getProjectsForComparison(ids: string[]): Promise<{
     isDemoData: true,
   };
 }
+

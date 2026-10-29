@@ -106,3 +106,4 @@ describe("Project Workflow State Machine", () => {
     expect(getStatusBadge("rejected").label).toBe("Rejected");
   });
 });
+

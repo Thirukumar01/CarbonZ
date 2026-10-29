@@ -192,3 +192,4 @@ export function getTrustScoreTier(score: number): {
   }
   return { tier: "Low", colorClass: "text-rose-700", badgeBg: "bg-rose-50 text-rose-800 border-rose-300" };
 }
+

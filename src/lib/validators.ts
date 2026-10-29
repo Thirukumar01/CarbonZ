@@ -163,3 +163,4 @@ export const loginSchema = z.object({
 export const passwordRecoverySchema = z.object({
   email: z.string().email("Please enter a valid email address to receive reset instructions"),
 });
+

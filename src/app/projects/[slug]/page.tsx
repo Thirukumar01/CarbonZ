@@ -298,3 +298,4 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
     </div>
   );
 }
+

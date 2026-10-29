@@ -339,3 +339,4 @@ export const DEMO_PROJECTS: FullProject[] = [
     ],
   },
 ];
+

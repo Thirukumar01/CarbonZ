@@ -131,3 +131,4 @@ WHERE id = '<USER_UUID_FROM_AUTH_USERS>';
 - **Linting:** `npm run lint`
 - **Production Build:** `npm run build`
 - **End-to-End Tests:** `npm run test:e2e`
+

@@ -63,3 +63,4 @@ export default async function ProjectsPage({ searchParams }: ProjectsPageProps) 
     </div>
   );
 }
+

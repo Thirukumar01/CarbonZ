@@ -4,9 +4,9 @@ test.describe("CarbonZ E2E Smoke & Core User Flows", () => {
   test("Landing page loads with core branding and feature sections", async ({ page }) => {
     await page.goto("/");
     await expect(page).toHaveTitle(/CarbonZ/);
-    await expect(page.locator("text=Verify. Trust. Track.")).toBeVisible();
+    await expect(page.locator("text=Verify. Trust. Track.").first()).toBeVisible();
     await expect(page.locator("text=Carbon Trust Score =")).toBeVisible();
-    await expect(page.locator("text=The Carbon Passport")).toBeVisible();
+    await expect(page.getByRole("heading", { name: "The Carbon Passport" })).toBeVisible();
   });
 
   test("Project Explorer displays projects, search, and filters", async ({ page }) => {
@@ -54,3 +54,4 @@ test.describe("CarbonZ E2E Smoke & Core User Flows", () => {
     await expect(page.locator("text=Reset Account Password")).toBeVisible();
   });
 });
+

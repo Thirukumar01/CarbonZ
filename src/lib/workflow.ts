@@ -164,3 +164,4 @@ export function getStatusBadge(status: VerificationStatus): {
       };
   }
 }
+

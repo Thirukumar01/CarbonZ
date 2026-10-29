@@ -264,3 +264,4 @@ INSERT INTO public.verification_reviews (
   'Provide certified laboratory soil probe analysis for parcels 4 & 9 down to 30cm depth.'
 )
 ON CONFLICT (id) DO NOTHING;
+
